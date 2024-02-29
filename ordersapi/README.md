@@ -14,11 +14,7 @@ This project implements an Orders API using AWS Serverless Application Model (SA
 
 ## Image of Flow
 
-![Image of Flow](APIGW.PNG)
-
-## Project Structure
-
-![Project Structure](Project Structure.PNG)
+![Image of Flow](./APIGW.PNG)
 
 ## Prerequisites
 
@@ -39,6 +35,10 @@ The SAM template (`template.yaml`) defines the AWS resources needed for the Orde
 - [ReadOrdersFunction](#readordersfunction): Lambda function for reading orders.
 
 For more details, refer to the [template.yaml](template.yaml) file.
+
+## Project Structure
+
+[Project Structure](./Project%20Structure.png)
 
 ## Deployment
 
