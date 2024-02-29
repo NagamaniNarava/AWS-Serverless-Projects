@@ -17,9 +17,9 @@ This project implements an Orders API using AWS Serverless Application Model (SA
 
 Before deploying the Orders API, ensure you have the following:
 
-- [AWS CLI](https://aws.amazon.com/cli/) installed and configured.
 - [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html) installed.
 - Java 11 runtime environment.
+- [Docker](https://www.docker.com/) needs to be installed.
 
 ## SAM Template Overview
 
@@ -40,8 +40,6 @@ For more details, refer to the [template.yaml](template.yaml) file.
 ## Deployment
 
 To deploy the Orders API, run the following commands in your terminal:
-
-```bash
 sam build
 sam deploy --guided
 
