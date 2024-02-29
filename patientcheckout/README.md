@@ -1,6 +1,6 @@
 # Patient Checkout System using AWS SAM
 
-<img src="./Flow.png" alt="Orders API Flow" width="400">
+<img src="./Flow.png" alt="Orders API Flow" width="700">
 
 ## Table of Contents
 
