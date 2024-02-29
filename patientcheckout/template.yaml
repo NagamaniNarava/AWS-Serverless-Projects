@@ -23,7 +23,7 @@ Resources:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
       CodeUri: patientcheckout
-      Handler: com.bharath.aws.lambda.s3sns.PatientCheckoutLambda::handler
+      Handler: com.aws.lambda.s3sns.PatientCheckoutLambda::handler
       Runtime: java11
       MemorySize: 512
       DeadLetterQueue:
@@ -47,7 +47,7 @@ Resources:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
       CodeUri: patientcheckout
-      Handler: com.bharath.aws.lambda.s3sns.BillManagementLambda::handler
+      Handler: com.aws.lambda.s3sns.BillManagementLambda::handler
       Runtime: java11
       MemorySize: 512
       Events:
@@ -59,7 +59,7 @@ Resources:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
       CodeUri: patientcheckout
-      Handler: com.bharath.aws.lambda.s3sns.errorhandling.ErrorHandler::handler
+      Handler: com.aws.lambda.s3sns.errorhandling.ErrorHandler::handler
       Runtime: java11
       MemorySize: 512
       Events:
@@ -71,7 +71,7 @@ Resources:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
       CodeUri: patientcheckout
-      Handler: com.bharath.aws.lambda.sqs.ClaimManagementLamdba::handler
+      Handler: com.aws.lambda.sqs.ClaimManagementLamdba::handler
       Runtime: java11
       MemorySize: 512
       Events:

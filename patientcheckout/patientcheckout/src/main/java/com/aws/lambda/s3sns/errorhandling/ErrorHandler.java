@@ -1,4 +1,4 @@
-package com.bharath.aws.lambda.s3sns.errorhandling;
+package com.aws.lambda.s3sns.errorhandling;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

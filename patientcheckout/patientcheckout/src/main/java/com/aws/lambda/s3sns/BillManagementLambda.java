@@ -1,4 +1,4 @@
-package com.bharath.aws.lambda.s3sns;
+package com.aws.lambda.s3sns;
 
 import com.amazonaws.services.lambda.runtime.events.SNSEvent;
 import com.fasterxml.jackson.core.JsonProcessingException;

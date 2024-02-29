@@ -1,4 +1,4 @@
-package com.bharath.aws.lambda.s3sns;
+package com.aws.lambda.s3sns;
 
 public class PatientCheckoutEvent {
 

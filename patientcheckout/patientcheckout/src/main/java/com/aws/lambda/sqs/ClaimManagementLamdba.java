@@ -1,4 +1,4 @@
-package com.bharath.aws.lambda.sqs;
+package com.aws.lambda.sqs;
 
 import com.amazonaws.services.lambda.runtime.events.SQSEvent;
 
